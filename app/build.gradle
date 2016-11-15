@@ -5,7 +5,7 @@ android {
     buildToolsVersion '23.0.2'
 
     defaultConfig {
-        applicationId "id.sch.smktelkom_mlg.project.xiirpl204142434.plum"
+        applicationId "id.sch.smktelkom_mlg.project.xiirpl204142434"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
@@ -25,3 +25,4 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.android.support:design:23.3.0'
 }
+apply plugin: 'com.google.gms.google-services'

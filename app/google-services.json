@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "227883638611",
+    "firebase_url": "https://plum-7cfbc.firebaseio.com",
+    "project_id": "plum-7cfbc",
+    "storage_bucket": "plum-7cfbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227883638611:android:69f135862c3da935",
+        "android_client_info": {
+          "package_name": "id.sch.smktelkom_mlg.project.xiirpl204142434"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227883638611-infliip1175bkid0fome83sd1b7ted3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.sch.smktelkom_mlg.project.xiirpl204142434",
+            "certificate_hash": "C67DE89E62F2A0EED1BF8E5F337FAC96E4EA6436"
+          }
+        },
+        {
+          "client_id": "227883638611-mp9i85tnot7q3nrt2ehcl9i932mghldc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHXRYdvamFaCdUe-gbSBcez5y00Aq-9vs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227883638611-mp9i85tnot7q3nrt2ehcl9i932mghldc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
