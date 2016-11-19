@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xiirpl204142434.plum;
+package id.sch.smktelkom_mlg.project.xiirpl204142434.plum.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,9 @@ import android.view.View;
 import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
+
+import id.sch.smktelkom_mlg.project.xiirpl204142434.plum.R;
+import id.sch.smktelkom_mlg.project.xiirpl204142434.plum.signUpActivity;
 
 public class accountActivity extends AppCompatActivity {
 

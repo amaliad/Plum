@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".accountActivity">
+    tools:context=".activity.accountActivity">
 
     <item
         android:id="@+id/action_search"
