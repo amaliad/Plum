@@ -3,6 +3,7 @@ package id.sch.smktelkom_mlg.project.xiirpl204142434.plum.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -15,12 +16,13 @@ import com.google.firebase.auth.FirebaseAuth;
 import id.sch.smktelkom_mlg.project.xiirpl204142434.plum.R;
 import id.sch.smktelkom_mlg.project.xiirpl204142434.plum.signUpActivity;
 
-public class accountActivity extends AppCompatActivity {
+public class accountActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener {
 
     private Button mLogOutButton;
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
     private Toolbar mToolbar;
+    private FragmentDrawer drawerFragment;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,11 @@ public class accountActivity extends AppCompatActivity {
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        drawerFragment = (FragmentDrawer)
+                getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
+        drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), mToolbar);
+        drawerFragment.setDrawerListener(this);
 
         mAuth = FirebaseAuth.getInstance();
         mAuthListener = new FirebaseAuth.AuthStateListener() {
@@ -77,6 +84,9 @@ public class accountActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onDrawerItemSelected(View view, int position) {
+    }
 
     @Override
     protected void onStart() {
