@@ -23,8 +23,6 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.GoogleAuthProvider;
 
-import id.sch.smktelkom_mlg.project.xiirpl204142434.plum.activity.accountActivity;
-
 public class signUpActivity extends AppCompatActivity {
 
     public static final int RC_SIGN_IN = 1;
@@ -51,7 +49,7 @@ public class signUpActivity extends AppCompatActivity {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if (firebaseAuth.getCurrentUser() != null) {
-                    startActivity(new Intent(signUpActivity.this, accountActivity.class));
+                    startActivity(new Intent(signUpActivity.this, homeActivity.class));
                 }
             }
         };
