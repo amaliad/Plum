@@ -1,31 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="id.sch.smktelkom_mlg.project.xiirpl204142434.plum.activity.logoutFragment">
+    tools:context="id.sch.smktelkom_mlg.project.xiirpl204142434.plum.logoutFragment">
 
-
-    <TextView
-        android:id="@+id/label"
-        android:layout_width="fill_parent"
+    <Button
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="100dp"
-        android:gravity="center_horizontal"
-        android:text="LOGOUT"
-        android:textSize="45dp"
-        android:textStyle="bold" />
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:padding="8dp"
+        android:text="4"
+        android:textColor="#fff"
+        android:textSize="28dp" />
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/label"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="10dp"
-        android:gravity="center_horizontal"
-        android:text="Edit fragment_logout.xml to change the appearance"
-        android:textSize="12dp" />
 
-</RelativeLayout>
+</FrameLayout>
