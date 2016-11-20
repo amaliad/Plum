@@ -19,11 +19,11 @@ public class homeActivity extends AppCompatActivity
     NavigationView navigationView = null;
     Toolbar toolbar = null;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        setTitle("Plum");
 
         homeFragment fragment = new homeFragment();
         android.support.v4.app.FragmentTransaction fragmentTransaction =
@@ -90,13 +90,7 @@ public class homeActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            homeFragment fragment = new homeFragment();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
-                    getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.fragment_container, fragment);
-            fragmentTransaction.commit();
-        } else if (id == R.id.nav_community) {
+        if (id == R.id.nav_community) {
             communityFragment fragment = new communityFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
