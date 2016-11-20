@@ -32,10 +32,10 @@
     <string name="slide_1_title">Welcome to Plum!</string>
     <string name="slide_1_desc">Discover the world opinions and experiences in implementing healthy life</string>
 
-    <string name="slide_2_title">Be the world's community saver</string>
-    <string name="slide_2_desc">It's possible for you to describe the right way to cure on people's problem just by create a single comment</string>
+    <string name="slide_2_title">Be the world\'s community saver</string>
+    <string name="slide_2_desc">It\'s possible for you to describe the right way to cure on people\'s problem just by create a single comment</string>
 
-    <string name="slide_3_title">Let's get started!</string>
+    <string name="slide_3_title">Let\'s get started!</string>
     <string name="slide_3_desc">Try to be the best helper in our community</string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
