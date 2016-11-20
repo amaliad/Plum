@@ -8,13 +8,13 @@ import android.content.SharedPreferences;
  */
 
 public class PrefManager {
-    // Shared preferences file name
+    // preferensi bersama nama file
     private static final String PREF_NAME = "androidhive-welcome";
     private static final String IS_FIRST_TIME_LAUNCH = "IsFirstTimeLaunch";
     SharedPreferences pref;
     SharedPreferences.Editor editor;
     Context _context;
-    // shared pref mode
+    //
     int PRIVATE_MODE = 0;
 
     public PrefManager(Context context) {
