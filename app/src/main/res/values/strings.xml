@@ -29,14 +29,14 @@
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
 
-    <string name="slide_1_title">Hello GUYS!</string>
-    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+    <string name="slide_1_title">Welcome to Plum!</string>
+    <string name="slide_1_desc">Discover the world opinions and experiences in implementing healthy life</string>
 
-    <string name="slide_2_title">Welcome MY Health</string>
-    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+    <string name="slide_2_title">Be the world's community saver</string>
+    <string name="slide_2_desc">It's possible for you to describe the right way to cure on people's problem just by create a single comment</string>
 
-    <string name="slide_3_title">Great Discounts</string>
-    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+    <string name="slide_3_title">Let's get started!</string>
+    <string name="slide_3_desc">Try to be the best helper in our community</string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>

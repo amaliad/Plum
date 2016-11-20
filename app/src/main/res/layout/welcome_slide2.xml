@@ -14,7 +14,7 @@
         <ImageView
             android:layout_width="@dimen/img_width_height"
             android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/ic_accessibility_black_24dp" />
+            android:src="@drawable/ic_group_black_24dp" />
 
         <TextView
             android:layout_width="wrap_content"
