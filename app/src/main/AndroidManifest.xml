@@ -25,7 +25,8 @@
             android:name=".homeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
-        <activity android:name=".communityActivity"></activity>
+        <activity android:name=".communityActivity" />
+        <activity android:name=".commentActivity"></activity>
     </application>
 
 </manifest>

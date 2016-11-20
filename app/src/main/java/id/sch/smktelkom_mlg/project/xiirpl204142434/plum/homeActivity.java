@@ -15,15 +15,16 @@ import android.view.View;
 
 public class homeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
     NavigationView navigationView = null;
     Toolbar toolbar = null;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         setTitle("Plum");
+
 
         homeFragment fragment = new homeFragment();
         android.support.v4.app.FragmentTransaction fragmentTransaction =
@@ -41,6 +42,7 @@ public class homeActivity extends AppCompatActivity
                         .setAction("Action", null).show();
             }
         });
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
