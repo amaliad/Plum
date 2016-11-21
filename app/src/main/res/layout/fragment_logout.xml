@@ -4,18 +4,19 @@
     android:layout_height="match_parent"
     tools:context="id.sch.smktelkom_mlg.project.xiirpl204142434.plum.logoutFragment">
 
-    <Button
-        android:id="@+id/textView"
+
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="150dp"
+        android:text="Logout?" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@color/colorPrimary"
-        android:padding="8dp"
-        android:text="4"
-        android:textColor="#fff"
-        android:textSize="28dp" />
-
-
+        android:text="Logout" />
 </FrameLayout>
