@@ -37,13 +37,9 @@ public class helpFragment extends Fragment {
         getActivity().findViewById(R.id.buttonBrowser).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openWebPage("plum.000webhostapp.com");
+                openWebPage("http://plum.000webhostapp.com");
             }
         });
-        {
-
-        }
-
     }
 
     private void openWebPage(String url) {
