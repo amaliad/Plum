@@ -4,7 +4,7 @@ aplikasi ini adalah sebuah aplikasi untuk suatu komunitas pecinta kesehatan. pad
 dengan para penyuka kesehatan yang lain. (sharing)
 
 ##Anggota Kelompok
-Nama : Amalia Damayanti 
+####Nama : Amalia Damayanti 
 Kelas : XII RPL 2
 No Urut : 04
 NIS :
