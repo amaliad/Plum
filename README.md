@@ -7,7 +7,7 @@ dengan para penyuka kesehatan yang lain. (sharing)
 ####Nama : Amalia Damayanti 
 ####Kelas : XII RPL 2
 ####No Urut : 04
-####NIS :
+####NIS :4286/1184.070
 ####User GitHub : amaliad
 #
 ####Nama : Eka Cindi Febru Anita Sugiyanto
